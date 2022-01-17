@@ -1,0 +1,44 @@
+@charset "UTF-8";
+body {
+	position: absolute;
+	width: 100%;
+	height: 100%;	
+}
+
+#adoutmain {
+	border:solid 1px cyan;
+	width: 100%;
+	height: 350px;
+	margin: 0px auto;
+}
+#adoutmain h1{
+	 font-size: 50px;
+	 text-align: center;
+	 margin-top: 100px;
+}
+#adoutmenu{
+	width: 100%;
+	height: 100%;
+	border: solid 1px red;
+}
+#adoutmenu >#adoutinbox{
+	width: 90%;
+	height: 80%;
+	margin:1% 5% 1% 5%;
+	border: solid 1px black;
+}
+
+#adoutinbox >#buttons{
+	text-align: center;
+	width: 13%;
+	height: 7%;
+	border: solid 1px blue;
+	margin: 1% 1% 1% 73%;
+}
+
+#adoutinbox >#content{
+	width: 80%;
+	height: 70%;
+	margin:2% 2% 1% 2%;
+	border: solid 1px black;
+}
