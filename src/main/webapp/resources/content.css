@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+#adoutmenu >#content{
+	width: 90%;
+	height: 80%;
+	margin:1% 5% 1% 5%;
+	border: solid 1px black;
+	overflow: hidden;
+}
+#content >#buttons{
+	text-align: center;
+	width: 13%;
+	height: 7%;
+	border: solid 1px blue;
+	margin: 1% 1% 1% 73%;
+}
+
+#adoutinbox{
+	width: 10%;
+	height: 70%;
+	margin:2% 2% 1% 2%;
+	border: solid 1px black;
+	overflow: hidden;
+}
+#adoutinbox>div{
+	font-size:40px; 
+	float: left;
+}
