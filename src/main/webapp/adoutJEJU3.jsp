@@ -8,7 +8,7 @@
 <title>AdoutJEJU</title>
 <c:set var="root" value="${pageContext.request.contextPath}" />
 <link rel="stylesheet" href="${root}/resources/main2.css">
-<link rel="stylesheet" href="${root}/resources/content1.css"> 
+<link rel="stylesheet" href="${root}/resources/content2.css"> 
 </head>
 <body>
 	<div id="adoutmain">
@@ -16,17 +16,17 @@
 	</div>
 	<div id="content">
 		<div id="adoutinbox">
-			<div><a>Introduction</a></div>
-			<div><a>Introduction</a></div>
+				<div><a>Introduction</a></div>
+				<div><a>Introduction</a></div>
 		</div>
 		<div id="imgview">
-			<img alt="" src="https://blog.jinbo.net/attach/615/200937431.jpg">
-			<img alt="" src="https://blog.jinbo.net/attach/615/200937431.jpg">
-			<img alt="" src="https://blog.jinbo.net/attach/615/200937431.jpg">
-			<img alt="" src="https://blog.jinbo.net/attach/615/200937431.jpg">
-		<div id="textbox">
-			<input type="text"/>
-		</div>	
+			<img alt="" src="">
+			<img alt="" src="">
+			<img alt="" src="">
+			<img alt="" src="">
+			<img alt="" src="">
+			<img alt="" src="">
+			<img alt="" src="">	
 		</div>
 		<div id="buttons">
 			<input type="submit" value="추가"/>

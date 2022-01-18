@@ -2,25 +2,39 @@
 body {
 	position: absolute;
 	width: 100%;
-	height: 100%;	
+	height: 100%;
+	border: sollid 1px red;	
 }
-
 #adoutmain {
 	border:solid 1px cyan;
 	width: 100%;
 	height: 350px;
 	margin: 0px auto;
+	overflow: hidden;
 }
-#adoutmain h1{
-	 font-size: 50px;
+#adoutmain h3{
 	 text-align: center;
 	 margin-top: 100px;
 }
-#adoutmenu{
+#adoutmain>#buttons{
+	text-align: center;
+	width: 13%;
+	height: 7%;
+	border: solid 1px blue;
+	margin: 1% 1% 1% 73%; 
+}
+#textbox{
+	margin:50px 0px 0px 20px;
+	width: 70%;
+	height: 30%;
+	border: solid 1px blue ;
+}
+#textbox input{
 	width: 100%;
 	height: 100%;
-	border: solid 1px red;
+	border: solid 1px blue ;
 }
+
 
 
 
