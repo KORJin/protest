@@ -1,9 +1,9 @@
 @charset "UTF-8";
-
 *{
 margin: 0px auto;
 padding: 0px auto;
 box-sizing: border-box;
+font-size: 17px;
 }
 #title{
 width: 1920px;
@@ -12,7 +12,7 @@ text-align: center;
 margin-top: 20px;
 }
 #title > a{
-    font-size: 40px;
+    font-size: 50px;
 }
 #menuF{
 position: absolute;
@@ -41,26 +41,7 @@ height: 30px;
 text-align: center;
 border-top: 0px;
 }
-#mycomment{
-position: relative;
-margin-left: 30px;
-top: 315px;
-transform: translateY(-50%);
-border: 2px black solid;
-width: 705px;
-height: 576px;
-float: left;
-}
-#bookmark{
-position: relative;
-margin-left: 30px;
-top: 315px;
-transform: translateY(-50%);
-border: 2px black solid;
-width: 352.5px;
-height: 576px;
-float: left;
-}
+
 #subtitle{
 position: relative;
 background-color: white;
@@ -79,3 +60,37 @@ margin-left: 10px;
     width: 100px;
     height: 30px;
 }
+
+#con > #con1{
+	width: 1175px;
+	height: 460px;
+	border: 0px red solid;
+	overflow: hidden;
+}
+#con1 div{
+	width: 260px;
+	height: 260px;
+	border: 0px red solid;
+	float: left;
+	padding: 10px;
+	padding-top: 30px;
+}
+
+#con > #con2{
+	width: 500px;
+	height: 120px;
+	border: 0px red solid;
+	margin-right: 0px;
+}
+
+#con2 > a{
+	width:220px;
+	height:120px;
+	margin: 5px;
+	float: right;
+}
+#con2 > img{
+	margin-right: 10px;
+	float: right;
+}
+
