@@ -3,6 +3,7 @@
 margin: 0px auto;
 padding: 0px auto;
 box-sizing: border-box;
+font-size: 17px;
 }
 #title{
 width: 1920px;
@@ -11,7 +12,7 @@ text-align: center;
 margin-top: 20px;
 }
 #title > a{
-    font-size: 40px;
+    font-size: 50px;
 }
 #menuF{
 position: absolute;
@@ -44,7 +45,7 @@ border-top: 0px;
 #subtitle{
 position: relative;
 background-color: white;
-font-size: 15px;
+font-size: 17px;
 display:inline-block;
 height: 25px;
 top: -12.5px;
@@ -125,4 +126,7 @@ margin-left: 10px;
 }
 #act1 > #color1,#act3 >#color2{
 	border-right: 2px black solid;
+}
+textarea{
+	width: 148px;
 }

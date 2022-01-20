@@ -7,7 +7,7 @@
 <meta charset="UTF-8">
 <title>AdoutJEJU</title>
 <c:set var="root" value="${pageContext.request.contextPath}" />
-<link rel="stylesheet" href="${root}/resources/special.css">
+<link rel="stylesheet" href="${root}/resources/css/aboutjeju/special.css">
 </head>
 <body>
     <div>
@@ -28,19 +28,19 @@
                 		<!-- 왼쪽 사진 -->
                 		<div style="padding-top: 50px; margin-top: 20px;">
                 			<a>대충 길이를 측정하는 글 대충 길이를 측정하는 글 대충 길이를 측정하는 글 대충 길이를</a>
-                			<img width="110px" height="110px" alt="a" src="${root}/resources/짱구.png"/>
-                			<img width="110px" height="110px" alt="a" src="${root}/resources/짱구.png"/>
+                			<img width="110px" height="110px" alt="" src="https://blog.jinbo.net/attach/615/200937431.jpg"/>
+                			<img width="110px" height="110px" alt="" src="https://blog.jinbo.net/attach/615/200937431.jpg"/>
                 		</div>
                 		
                 		<!-- 가운데 큰 사진 -->
                 		<div style="border : 0px black solid; width: 651px; height: 450px; padding: 10px; margin-top: 30px;">
-                			<img width="600px" height="400px" alt="a" src="${root}/resources/짱구.png"/>
+                			<img width="600px" height="400px" alt="" src="https://blog.jinbo.net/attach/615/200937431.jpg"/>
                 		</div>
                 		
                 		<!-- 오른쪽 사진 -->
                 		<div>
-                			<img width="110px" height="110px" alt="a" src="${root}/resources/짱구.png"/>
-                			<img width="110px" height="110px" alt="a" src="${root}/resources/짱구.png"/>
+                			<img width="110px" height="110px" alt="" src="https://blog.jinbo.net/attach/615/200937431.jpg"/>
+                			<img width="110px" height="110px" alt="" src="https://blog.jinbo.net/attach/615/200937431.jpg"/>
                 			<a>대충 길이를 측정하는 글 대충 길이를 측정하는 글 대충 길이를 측정하는 글 대충 길이를 측정하는</a>
                 		</div>
                 	</div>
@@ -49,17 +49,17 @@
                 	
                 	<!-- 맨 아래 사진 -->
                 	<div id="con2">	
-                		<img width="110px" height="110px" alt="a" src="${root}/resources/짱구.png"/>
-                		<img width="110px" height="110px" alt="a" src="${root}/resources/짱구.png"/>
+                		<img width="110px" height="110px" alt="" src="https://blog.jinbo.net/attach/615/200937431.jpg"/>
+                		<img width="110px" height="110px" alt="" src="https://blog.jinbo.net/attach/615/200937431.jpg"/>
                 		<a>대충 길이를 측정하는 글 대충 길이를 측정하는 글 대충 길이를 측정하는 글 대충 길이를 측정하는 글 대충 길이를 측정하는 글</a>
 						
                 	</div>
                 </div>
                 
+                
                 <div id="but">
-                    <input type="button" value="추가"/>
-                    <input type="button" value="수정"/>
-                    <input type="button" value="삭제"/>
+                    <input type="submit" value="입력"/>
+                    <input type="reset" value="취소"/>
                 </div>
             </div>
         </div>

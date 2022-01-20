@@ -4,6 +4,7 @@
 margin: 0px auto;
 padding: 0px auto;
 box-sizing: border-box;
+font-size: 17px;
 }
 #title{
 width: 1920px;
@@ -12,7 +13,7 @@ text-align: center;
 margin-top: 20px;
 }
 #title > a{
-    font-size: 40px;
+    font-size: 50px;
 }
 #menuF{
 position: absolute;
@@ -33,6 +34,7 @@ width: 1305.6px;
 height: 750px;
 float: left;
 border-left: 0px;
+position: relative;
 }
 #detail{
 border: 2px black solid;
@@ -71,7 +73,7 @@ margin-left: 10px;
 	height: 150px; 
 	margin-top: 20px;
 	margin-left: 20px; 
-	float: left;
+	float: right;
 }
 #secimg{
 	border : 0px black solid; 
@@ -93,5 +95,9 @@ margin-left: 10px;
 	font-size: 17pt;
 }
 #texts{
-	margin-top: 100px;
+	margin: 300px 0px 0px 650px;
+	position: absolute;
+}
+textarea{
+	width: 148px;
 }
