@@ -16,13 +16,16 @@ public class AboutjejuController {
 	@Autowired
 	private AboutjejuService aboutjejuService;
 	
-	@RequestMapping(value="/aboutjeju/introduction.do", method = RequestMethod.GET)
+	@RequestMapping(value="/aboutjeju/introduction.do", method = RequestMethod.POST)
 	public ModelAndView aboutjejuIntroduction(HttpServletRequest request,HttpServletResponse response) {
+		ModelAndView mav = new ModelAndView();
+		mav.addObject("request",request);
+		aboutjejuService.introductionWrite(mav);
 		return new ModelAndView("aboutjeju/introduction");
 	}
 	
 	@RequestMapping(value="/aboutjeju/location.do", method = RequestMethod.GET)
-	public ModelAndView aboutjejuLocation(HttpServletRequest request,HttpServletResponse response) {
+	public ModelAndView aboutjejuLoWcation(HttpServletRequest request,HttpServletResponse response) {
 		return new ModelAndView("aboutjeju/location");
 	}
 	

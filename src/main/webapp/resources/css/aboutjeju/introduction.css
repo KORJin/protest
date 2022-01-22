@@ -28,6 +28,9 @@ width: 153.6px;
 height:750px;
 float: left;
 }
+#category a{
+	text-decoration-line: none;
+}
 #content{
 border: 2px black solid;
 width: 1305.6px;

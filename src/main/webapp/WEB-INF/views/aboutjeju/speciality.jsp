@@ -15,10 +15,10 @@
         <div id="menuF">
             <div id="category">
                 <div id="detail" style="border-left: 0px;"></div>
-                <div id="detail"><a>Introduction</a></div>
-                <div id="detail"><a>Location</a></div>
-                <div id="detail" style="border-right: 0px;"><a>Speciality</a></div>
-                <div id="detail"><a>Activities</a></div>
+                <div id="detail"><a href="${root}/aboutjeju/introduction.do">Introduction</a></div>
+                <div id="detail"><a href="${root}/aboutjeju/location.do">Location</a></div>
+                <div id="detail" style="border-right: 0px;"><a  href="${root}/aboutjeju/speciality.do">Speciality</a></div>
+                <div id="detail"><a href="${root}/aboutjeju/activities.do">Activities</a></div>
                 <div id="detail" style="height: 600px; border-left: 0px; border-bottom: 0px;"></div>              
             </div>
             <div id="content">
